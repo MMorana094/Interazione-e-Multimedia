@@ -1,0 +1,79 @@
+L'MSE tra l1 e l2 è in generale diverso da 0, mentre quello tra l1 e l3 è sicuramente uguale a 0.
+Nessuna delle precedenti.
+Deve essere a memoria zero.
+La rotazione di un'immagine vettoriale non introduce di norma artefatti.
+RGB
+Se si usa l'equalizzazione su l1 e su l2 gli istogrammi dei due output saranno sicuramente uguali.
+LUT.
+1/9 m
+Una strategia che tramite interpolazione ci permette di ottenere un'immagine a colori da una fotocamera che usa un CFA.
+A: 25%; B: 25%; C:25%; D:25%.
+Il calcolo dell'output richiede operazioni aritmetiche tra i valori d'intensità dei pixel.
+y*(X+Y+Z) =Y
+Si presenta se viene violato il teorema di Nyquist-Shannon.
+Potenza spettrale e spettro.
+Una strategia per migliorare il rapporto di compressione di un’immagine riorganizzando le palette di colori.
+N-Box
+Kernel
+Nessuna delle precedenti
+Rotazione di 180°
+Dipende da un cattivo campionamento
+Modello del Pittore
+Non potrei scattare foto a colori
+È legata al teorema della convoluzione
+Massimo
+Logaritmo
+2:100 3:101 4:010 5:110
+Testo
+Calcolo della trasformata di Fourier
+Laplaciano
+Nessuna delle precedenti
+L’immagine di output non contiene colori non presenti nell’immagine di input
+fm + f = um
+Le componenti U e V sono anche correlate alla componente Y
+Viene utilizzata nel formato JPEG
+Il suo utilizzo produce un’immagine in falsi colori
+25
+Minimo
+Gesso bianco
+0 0 0 1 1 1 1 1 0 1 1 1
+La distanza tra lente ed il piano di formazione dell’immagine
+Mediano
+Nessuna delle precedenti
+Con parametro y compreso tra 0 e 1 il risultato è un’immagine incupita rispetto all’originale
+Si ottiene 0
+Neve
+127, 127, 127
+xyz
+Il numero di diottrie della lente
+Nessuna delle precedenti
+Nessuna delle precedenti
+99
+Nero
+Basta che superi i 4Khz
+È lineare
+0
+Filtro passa-basso di butterworth
+RAW
+È lineare
+Tra 0 e infinito per i(x, y) e tra 0 e 1 per r(x, y)
+Color Filter Array
+N-Box
+La somma tra un’immagine RGB e un’immagine negativo è sempre una matrice di bianchi
+A:0 B:11 C10
+Le due immagini sono uguali
+Perché la luminanza e la crominanza vanno separate, dato che vengono campionate e quantizzate diversamente
+0
+La massima frequenza di S è superiore a 2.5KHz
+Bianco
+I coni sono responsabili della visione fototica
+I caratteri con frequenza più bassa
+Stretching lineare del contrasto.
+N-Binomiale.
+Il filtro passa-basso di Butterworth può essere anche applicato nel dominio spaziale calcolando l'apposito kernel.
+(4, 3)
+Rotazione di 180°.
+é percettivamente uniforme.
+Viene utilizzata nel formato JPEG per codificare i coefficienti AC.
+LUT.
+Sul modello del pittore.

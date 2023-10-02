@@ -1,0 +1,397 @@
+Sia l1 un'immagine che viene salvata in due formati diversi, uno lossy e uno lossless. Siano l2 e l3 le immagini dopo la decompressione dai formati lossy e lossless rispettivamente. Quale delle seguenti affermazioni è l'unica vera?
+a. L'MSE tra l1 e l3 è in generale diverso da 0 mentre quello tra l1 e l2 è sicuramente uguale a 0.
+b. L'MSE tra l1 e l2 e l'MSE tra l1 e l3 sono entrambi, in generale, diversi da 0.
+c. L'MSE tra l1 e l2 è in generale diverso da 0, mentre quello tra l1 e l3 è sicuramente uguale a 0.
+d. L'MSE tra l1 e l2 e l'MSE tra l1 e l3 sono entrambi sicuramente uguali a 0.
+Perché nel formato JPEG si preferisce lavorare su uno spazio di colore luminanza-crominanza?
+a. Per permettere di sotto campionare maggiormente la luminanza ottenendo un risparmio in memoria.
+b. Per garantire che il passaggio di quantizzazione successivo sia totalmente reversibile.
+c. Per ottmizzare la decorrelazione introdotta dalla trasformata del coseno.
+d. Nessuna delle precedenti.
+Secondo il teorema di Shannon sulla compressione, che caratteristiche deve avere una sorgente discreta d'informazione affinché il suo bitrate minimo sia pari alla sua entropia?
+a. Deve essere una sorgente di caratteri alfabetici.
+b. Deve essere a memoria zero.
+c. Deve presentare eventi equiprobabili.
+d. Nessuna delle altre tre risposte è corretta.
+Quale tra le seguenti affermazioni sulle immagini vettoriali è l'unica VERA?
+a. La più piccola unità rappresentabile in X un'immagine vettoriale è il pixel.
+b. La rotazione di un'immagine vettoriale non introduce di norma artefatti.
+c. Le maggior parte delle fotocamere acquisisce immagini in formato vettoriale
+a. Nessuna delle precedenti
+Quale tra i seguenti spazi di colori presenta una geometria cubica?
+a. HSV
+b. RGB
+c. L*a*b*
+d. Nessuna delle altre tre risposte è corretta.
+Siano l1 e l2 due immagini diverse ma con lo stesso istogramma. Quale delle seguenti affermazioni su l1 e l2 è l'unica vera?
+a. L'entropia di l1 sarà, in generale, diversa dall'entropia di l2.
+b. Se si usa la trasformata di Fourier su l1 e l2, gli spettri di l1 e l2 saranno sicuramente uguali.
+c. Se si usa l'equalizzazione su l1 e su l2 gli istogrammi dei due output saranno sicuramente uguali.
+d. L'MSE tra l1 e l2 è sicuramente uguale a 0.
+Come viene chiamata la struttura che descrive univocamente la risposta a un operatore puntuale?
+a. Kernel.
+b. LUT.
+c. Spettro
+d. Nessuna delle precedenti
+Data una lente sottile da dieci diottrie, se poniamo un oggetto di fronte ad essa a distanza di un metro, a che distanza dal sensore va posta tale lente affinché si possa formare un'immagine correttamente a fuoco?
+a. 1/9 m
+b. 1/10 m
+c. 10 m
+d. 9 m
+Cosa si intende per demosaicking e come si realizza? 
+a. Una strategia che tramite convoluzione ci permette di correggere un'immagine che presenta artefatti dovuti alla compressione.
+b. Una strategia che tramite una trasformata ci permette di ridurre la dimensione in memoria di un'immagine senza introdurre artefatti.
+c. Una strategia che tramite interpolazione ci permette di ottenere un'immagine a colori da una fotocamera che usa un CFA.
+d. Nessuna delle precedenti
+Dati i simboli A, B, C e D, di una sequenza arbitrariamente lunga, con quale probabilità si dovrebbero presentare tali simboli affinché l'entropia della sequenza sia la massima possibile?
+a. A: 25%; B: 25%; C:25%; D:25%.
+b. Nessuna delle altre risposte è corretta.
+c. A: 1%; B; 1%; C:1%; D:94%.
+d. A: 10%; B: 20%; C: 30%; D:40%
+Quale tra le seguenti affermazioni sull'interpolazione replication è l'unica FALSA?
+a. Il calcolo dell'output richiede operazioni aritmetiche tra i valori d'intensità dei pixel.
+b. Per immagini fotorealistiche dà di solito risultati peggiori dell'interpolazione bilineare.
+c. È verosimilmente più rapida da eseguire rispetto all'interpolazione bilineare.
+d. L'immagine di output non contiene colori non presenti nell'immagine di input.
+Nella costruzione dello spazio di colore xyz partendo da XYZ, quale tra le seguenti relazioni è l'unica VERA?
+a. y*(X+Y+Z) =Y
+b. z=1-(x-y)
+c. Y=0.3*x+0.6*y+0.1*z
+d. Nessuna delle precedenti
+Quale delle seguenti affermazioni sull'aliasing è l'unica VERA?
+a. Si presenta se viene violato il teorema di Convoluzione.
+b. Si presenta se viene violato il teorema di Nyquist-Shannon.
+c. è causato dall'utilizzo della trasformata di Fourier.
+d. Nessuna delle precedenti
+Quale tra le seguenti grandezze relative alla trasformata di Fourier sono una il quadrato dell'altra?
+a. Potenza spettrale e spettro.
+b. Spettro e antitrasformata.
+c. Fase e spettro.
+d. Nessuna delle precedenti
+Cosa si intende con re-indexing?
+a. Una strategia per migliorare il rapporto di compressione di un’immagine riorganizzando le palette di colori.
+b. Una strategia per migliorare il rapporto di compressione di un’immagine sfruttando una trasformata discreta.
+c. Une strategia per migliorare il rapporto di compressione di un'immagine sotto campionando i canali di crominanza
+d. Una strategia per migliorare il rapporto di compressione di un’immagine applicando la codifica di Huffman
+Sia l un’immagine di colore uniforme (cioè, ogni pixel presenta esattamente lo stesso valore). Quale dei seguenti operatori, se applicato ad l, produce un risultato tale che l = l’?
+a. Laplaciano
+b. N-Box
+c. Sobel Y
+d. Prewitt X
+Come viene chiamata la risposta all’impulso di un operatore lineare e shift-invariant?
+a. Kernel
+b. LUT
+c. Convoluzione
+d. Spettro
+Quale tra le seguenti affermazioni sui bastoncelli dell’occhio umano è l’unica VERA?
+a. Sono meno dei coni
+b. Sono responsabili della vista fototica
+c. Sono concentrati principalmente nella fovea
+d. Nessuna delle precedenti
+Quale tra le seguenti operazioni NON richiede un passo di interpolazione?
+a. Demosaicking
+b. Rotazione di 180°
+c. Scaling di fattor tre lungo x e y
+d. Scaling di fattor due lungo x e y
+Quale tra le seguenti affermazione sull’aliasing è l’unica vera?
+a. Dipende da un cattivo campionamento
+b. Dipende da una cattiva quantizzazione
+c. Dipende dal fuoco della lente sottile
+d. Dipende dalla scelta errato dello spazio di colore
+Su cosa si basa lo spazio di colore HSV?
+a. Teoria del Tristimolo
+b. Modello del Pittore
+c. Sintesi additiva
+d. Nessuna delle precedenti
+Cosa accadrebbe se togliessi il CFA da una fotocamera digitale?
+a. Otterrei solo immagini affette da aliasing
+b. Otterrei solo immagini a falsi colori
+c. Non potrei scattare foto a colori
+d. Non potrei scattare foto messe a fuoco
+Quale tra le seguenti affermazione sulla trasformata di Fourier è l’unica vera?
+a. È legata al teorema della convoluzione
+b. Per un’immagine Raster può sempre essere calcolata in tempo O(N) dove N è il numero di pixel
+c. È legata al teorema sulla compressione di Shannon
+d. Nessuna delle precedenti
+Quali tra i seguenti operatori locali NON può essere applicato tramite convoluzione?
+a. N-Box
+b. N-Binomiale
+c. Laplaciano
+d. Massimo
+Quale tra le seguenti operazioni viene di norma utilizzata per provocare uno schiarimento dell’immagine?
+a. Negativo
+b. Laplaciano
+c. Logaritmo
+d. Operatore potenza con y = 3
+Quale tra le seguenti codifiche per i numeri interi consecutivi 2, 3, 4, 5 NON è un gray code?
+a. 2:100 3:101 4:010 5:110
+b. 2:100 3:110 4:111 5:011
+c. 2:111 3:110 4:010 5:011
+d. 2:111 3:011 4:010 5:000
+Quale tra i seguenti tipi di dato NON dovrebbe essere compresso con una compressione LOSSY?
+a. Immagini
+b. Audio
+c. Testo
+d. Video
+Quale tra le seguenti operazioni NON viene eseguita nel processo di compressione JPEG
+a. Passaggio allo spazio di colore YCbCr
+b. Codifica differenziale dei coefficienti DC
+c. Calcolo della trasformata di Fourier
+d. Suddivisione in blocchi 8x8
+Sia l un’immagine di colore uniforme (cioè, ogni pixel presenta esattamente lo stesso valore). Quale dei seguenti operatori, se applicato ad l, produce sempre un risultato l’ in cui tutti i valori sono uguali a 0?
+a. N-Binomiale
+b. Laplaciano
+c. Sharpening
+d. Mediano
+Cosa si intende per Bayern Pattern?
+a. Un particolare tipo di lente caratterizzata dall’avere due fuochi simmetrici
+b. Un particolare CFA in cui i filtri del rosso sono in un numero doppio rispetto a quelli del verde e blu
+c. Una strategia di demosaicking che permette di ridurre le distorsioni introdotte dal campionamento
+d. Nessuna delle precedenti
+Quale tra le seguenti affermazioni sull’interpolazione replication è l’unica VERA?
+a. Il calcolo dell’output richiede operazioni aritmetiche tra i valori d’intensità dei pixel
+b. Per immagini fotorealistiche dà di solito risultati migliore dell’interpolazione bilineare
+c. L’immagine di output non contiene colori non presenti nell’immagine di input
+d. Nessuna delle precedenti
+Quale delle seguenti relazioni tra le grandezze relative alla lente sottile è l’unica VERA?(f è la distanza focale, m il fattore di magnificazione e u la distanza oggetto lente)
+a. F = (m+1)/um
+b. fm + f = um
+c. 1/f = (1/u)*(1/m)
+d. Nessuna delle precedenti
+Quale tra le seguenti affermazioni sulle relazioni tra la famiglia di spazi di colore YUV e RGB è l’unica VERA?
+a. RGB e YUV sono entrambi spazi luminanza-crominanza
+b. Y può essere ottenuta come somma pesata tra R, G e B dove B ha il maggior contributo
+c. Le componenti U e V sono anche correlate alla componente Y
+d. Nessuna delle precedenti
+Quale tra le seguenti affermazione sulla codifica di Huffman è l’unica VERA?
+a. La lunghezza di tutte le codeword è uguale
+b. Nessuna codeword può essere suffisso di un’altra
+c. Viene utilizzata nel formato JPEG
+d. Nessuna delle precedenti
+Quale tra le seguenti affermazioni sul demosaicking è l’unica FALSA?
+a. Può essere applicato su immagini raw
+b. Il suo utilizzo prevede una fase di interpolazione
+c. Il suo utilizzo produce un’immagine in falsi colori
+d. Il suo utilizzo è necessario quando si usa un CFA
+Quanto vale la potenza spettrale del coefficiente di Fourier 3 + 4i?
+a. 5
+b. 7
+c. 12
+d. 25
+Quale tra i seguenti operatori locali NON è in grado di attenuare il rumore impulsivo pepe?
+a. Massimo
+b. Mediano
+c. Minimo
+d. Nessuna delle precedenti
+Quale tra questi materiali possiede il più alto coefficiente di riflettanza?
+a. Argilla rossa
+b. Buccia di banana
+c. Cartoncino verde
+d. Gesso bianco
+Sia 3, 5, 1, 3 la sequenza ottenuta codificando una codeword binaria tramite una codifica run-length. Quale, tra le seguenti è la codeword di partenza?
+a. 0 0 0 1 0 0 0 0 0 1 1 1
+b. 0 0 0 1 1 1 1 1 0 1 1 1
+c. 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0
+d. Nessuna delle precedenti
+Sia m il fattore di magnificazione di una lente sottile, sia u la distanza tra la lente ed un oggetto posto di fronte ad essa. Cosa rappresenta il prodotto tra m e u?
+a. Lo spesso della lente
+b. La focale
+c. La distanza tra lente ed il piano di formazione dell’immagine
+d. La dimensione dell’oggetto osservato attraverso la lente
+Quale tra i seguenti operatori locali NON è lineare?
+a. Laplaciano
+b. Mediano
+c. N-Binomiale
+d. Sharpening
+Quale tra i seguenti spazi di colore presenta una geometria di forma conica?
+a. CMY
+b. RGB
+c. L*a*b*
+d. Nessuna delle precedenti
+Quale tra le seguenti affermazioni sull’operatore puntuale potenza è l’unica FALSA?
+a. Per certi valori di Y si può ottenere un risultato simile a quello dell’operatore logaritmo
+b. Richiede l’uso di una costante c per normalizzare il valore in un certo range
+c. Può essere anche descritto tramite una LUT
+d. Con parametro y compreso tra 0 e 1 il risultato è un’immagine incupita rispetto all’originale
+Che valore si ottiene se si calcola l’MSE tra un’immagine l a 8 bit e sé stessa?
+a. Si ottiene 255
+b. Si ottiene 0
+c. Si ottiene un valore tendente a infinito
+d. Si ottiene 255*255
+Quale tra questi materiali possiede il più alto coefficiente di riflettanza?
+a. Buccia di banana
+b. Neve
+c. Ceramica nera
+d. Cartoncino blu
+Dato il colore RGB a 24bit C1(128,128,128). Quali sono le corrispondenti coordinate CMY?
+a. 127, 127, 127
+b. 0, 0, 0
+c. 255, 255, 255
+d. 128, 128, 128
+In quale tra i seguenti spazi di colore la somma delle componenti è sempre uguale a 1?
+a. XYZ
+b. xyz
+c. L*a*b
+d. Nessuna delle precedenti
+Sia m il fattore di magnificazione di una lente sottile e sia u la distanza tra la lente ed un oggetto messo a fuoco posto davanti ad essa. Cosa rappresenta la quantità (m+1) / (u*m)?
+a. Il numero di diottrie della lente
+b. La distanza tra la lente e il piano di formazione
+c. La dimensione dell’oggetto osservato attraverso la lente
+d. La focale della lente
+Quale tra i seguenti spazi di colore appartiene alla famiglia luminanza-crominanza?
+a. CMY
+b. XYZ
+c. RGB
+d. Nessuna delle precedenti
+Quale tra le seguenti affermazioni sull’occhio umano è l’unica VERA?
+a. La retina simula il comportamento della lente
+b. Il numero di coni è superiore al numero di bastoncelli
+c. i coni sono responsabili della visione scotopica
+d. Nessuna delle precedenti
+Sia -2, 5, -2 la codifica differenziale di una quaterna. Sapendo che il primo valore non codificato è 100 quanto vale il quarto valore?
+a. 99
+b. 102
+c. 97
+d. Nessuna delle precedenti
+In un sistema che utilizza la sintesi sottrattiva a tre canali/filtri con ciano, magenta e giallo che colore si ottiene se si sovrappongono tutti e tre i filtri?
+a. Nero
+b. Dipende dalla luce filtrante
+c. Bianco
+d. Nessuna delle precedenti
+Sia S un segnale con frequenza massimo 2000Hz. Che caratteristiche dovrà avere la frequenza di campionamento affinché il segnale possa essere sempre ricostruito fedelmente?
+a. Non deve superare i 4Khz
+b. Basta che superi i 2Khz
+c. Basta che superi i 4Khz
+d. Non deve superare i 2Khz
+Quale delle seguenti affermazioni sull’operatore Negativo è l’unica FALSA?
+a. La somma tra un’immagine RGB e l’immagine negativo di l è sempre una matrice di bianchi
+b. È invariante per traslazione
+c. È lineare
+d. È un operatore puntuale
+Quanto vale il PSNR se l’MSE è uguale al quadrato del massimo valore di luminanza rappresentabile nell’immagine?
+a. 0
+b. Tende a infinito
+c. Tende a -infinito
+d. Nessuna delle precedenti
+Quale tra i seguenti filtri nel dominio delle frequenze è l’unico caratterizzato da un numero d’ordine n?
+a. Filtro passa-basso di butterworth
+b. Filtro passa-basso ideale
+c. Filtro passa-basso Gaussiano
+d. Nessuna delle precedenti
+Come si chiama genericamente il formato delle immagini memorizzata in Bayern Pattern?
+a. RAW
+b. CFA
+c. Vettoriale
+d. True Color
+Quale delle seguenti affermazione sull’operatore Mediano è l’unica FALSA?
+a. È un operatore locale
+b. È lineare
+c. È shift invariant/invariante per traslazione
+d. Si può usare per ridurre efficacemente il rumore del “sale e pepe”
+Quali sono i limiti teorici per le funzioni che descrivono le componenti di illuminazione e riflettanza i(x, y) e r(x, y) di un’immagine?
+a. Tra 0 e infinito per i(x, y)  e tra infinito per r(x, y)
+b. Tra 0 e 1 per i(x, y) e tra 0 e infinito per r(x, y)
+c. Tra 0 e infinito per i(x, y) e tra 0 e 1 per r(x, y)
+d. Tra 0 e 1 per i(x, y) e tra 0 e 1 per r(x, y)
+Come si chiama una generica matrice di filtri posti sul sensore di una fotocamera al fine di catturare, per ogni regione spaziale, uno specifico range di lunghezza d’onda?
+a. Bayern Pattern
+b. RAW
+c. Demosaicking
+d. Color Filter Array
+Quale tra le seguenti operazioni, applicata ad un’immagine a scala di grigi a 8 bit, POTREBBE produrre immagini di output con colori NON presenti nell’immagine di input?
+a. Interpolazione replication
+b. Massimo
+c. N-Box
+d. Minimo
+Quale delle seguenti affermazioni sull’operatore Negativo è l’unica VERA?
+a. La somma tra un’immagine RGB e un’immagine negativo è sempre una matrice di bianchi
+b. È lineare
+c. È un operatore locale
+d. Nessuna delle precedenti
+Data la stringa AAAAABBC quale tra le seguenti tabelle di codifica, ottenute basandosi su tale stringa è verosimilmente stata calcolata tramite l’algoritmo di Huffman?
+a. A:0 B:11 C10
+b. A:11 B:10 C:0
+c. A:11 B:10 C:01
+d. A:0 B:10 C:01
+Date due immagini a scala di grigi 8bit, si osserva un PSNR che tende a infinito. Cosa possiamo affermare con certezza?
+a. Le due immagini sono uguali
+b. Le due sono una il negativo dell’altra
+c. Una immagine bianca(255) e l’altra è nera(0)
+d. Nessuna delle precedenti
+Perché nel formato JPEG si preferisce usare lo spazio di colore YCbCr?
+a. Perché essendo normalizzato viene ridotta l’introduzione di artefatti di compressione
+b. Perché rispetto ad altri spazi di colore, questo migliora la decorrelazione che si ottiene dall’uso della trasformata
+c. Perché la luminanza e la crominanza vanno separate, dato che vengono campionate e quantizzate diversamente
+d. Nessuna delle precedenti
+Sia H un filtro passa basso ideale di dimensione 20x20 e frequenza di taglio 4. Quanto vale H(14, 13)?
+a. 0.5
+b. 1
+c. 0
+d. Nessuna delle precedenti
+Un segnale S viene campionato con una frequenza di campionamento pari a 5Khz. Tuttavia , sul segnale campionato S’ si nota la presenza di aliasing che in S era assente. Cosa possiamo affermare con certezza?
+a. La massima frequenza di S è superiore a 2.5KHz
+b. La massima frequenza di S è superiore a 1KHz
+c. La massima frequenza di S è inferiore a 1KHz
+d. La massima frequenza di S è inferiore a 2.5 KHz
+In un sistema che utilizza la sintesi additiva a tre canali con rosso, verde e blu, che colore si ottiene se si massimizzano tutti i contributi?
+a. Nero
+b. Dipende dalla luca filtrante
+c. Bianco
+d. Nessuna delle precedenti
+Quale tra le seguenti affermazioni sull’occhio umano è l’unica FALSA?
+a. Il numero di bastoncelli è superiore ai coni
+b. La maggior parte dei bastoncelli si trova nella fovea
+c. La messa a fuoco degli oggetti è regolata dal cristallino
+d. I coni sono responsabili della visione fototica
+Considerata la codifica di Huffman e data una stringa di caratteri, quali caratteri della stringa dovrebbero essere codificati con una parola di bit più lunga?
+a. I caratteri con frequenza più bassa
+b. Dipende dalle scelte opzionali fatte da chi codifica.
+c. I caratteri con frequenza più alta.
+d. I caratteri con frequenza media.
+Sia l un'immagine a scala di grigi con almeno due colori distinti. Quale dei seguenti operatori, se applicato a l, produce un'immagine che contiene sicuramente, tra gli altri, i colori bianco(255) e nero(0)?
+a. Logaritmo
+b. Stretching lineare del contrasto.
+c. Equalizzazione.
+d. Nessuna delle Precedenti.
+Quale tra i seguenti operatori locali agisce pesando diversamente i valori dell'intorno in base alla distanza dal centro del kernel?
+a. N-Binomiale.
+b. Nessuna delle precedenti.
+c. Mediano.
+d. N.box.
+Quale tra le seguenti affermazioni sul filtraggio nel dominio spaziale e nel dominio delle frequenze è l'unica VERA?
+a. L'operatore mediano può essere applicato anche nel dominio delle frequenze sfruttando il teorema di convoluzione.
+b. Nessuna delle precedenti.
+c. Il filtro passa-basso di Butterworth può essere anche applicato nel dominio spaziale calcolando l'apposito kernel.
+d. La trasformata di Fourier di filtro gaussiano NON è più un filtro gaussiano.
+La potenza spettrale di un coefficiente ottenuto tramite trasformata discreta di Fourier vale 25. Da quale tra le seguenti coppie(parte reale, parte immaginaria) potrebbe derivare tale potenza spettrale?
+a. (5, 5)
+b. (4, 3)
+d. Nessuna delle precedenti.
+c. (12, 13)
+Quale tra le seguenti affermazioni NON richiede un passo di interpolazione?
+a. Scaling di fattore 2 lungo x e y.
+b. Scaling di fattore 3 lungo x e y.
+c. Rotazione di 180°.
+d. Demosaicking.
+Quale delle seguenti affermazioni sul modello CIE XYZ è l'unica FALSA?
+a. Si può ottenere da RGB con una trasformazione lineare.
+b. é percettivamente uniforme.
+c. è basato sulla teoria del tristimolo.
+d. La definizione fisica richiede il calcolo di integrali.
+Quale tra le seguenti affermazioni sulla codifica differenziale è l'unica FALSA?
+a. Funziona perchè tende ad abbassare l'entropia d'informazione.
+b. Viene utilizzata nel formato JPEG per codificare i coefficienti AC.
+c. Si basa sul calcolare le differenze tra eventi numerici adiacenti.
+d. si può usare anche su dati disposti in una matrice (come un'immagine).
+Quale tra i seguenti costrutti descrive in maniera inequivocabile un operatore puntuale per le immagini digitali a scala di grigi?
+a. Kernel.
+b. LUT.
+c. Nessuna delle precedenti.
+d. Matrice affine.
+Su cosa si basa lo spazio di colore HSV?
+a. Sulla teoria del tristimolo.
+b. Sulla sintesi additiva.
+c. Sul modello del pittore.
+d. Nessuna delle precedenti.
+
+
