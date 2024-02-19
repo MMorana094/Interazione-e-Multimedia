@@ -77,3 +77,11 @@ Rotazione di 180°.
 Viene utilizzata nel formato JPEG per codificare i coefficienti AC.
 LUT.
 Sul modello del pittore.
+L’effetto della sua applicazione è simile a quello di un edge detector.
+Si può ottenere da RGB mediante una trasformazione lineare.
+Scaling di fattore 3 lungo x e y.
+Stretching lineare del contrasto.
+(3, 3).
+La distanza tra la lente e l’oggetto posto davanti ad essa.
+Kernel.
+Sintesi Sottrattiva.

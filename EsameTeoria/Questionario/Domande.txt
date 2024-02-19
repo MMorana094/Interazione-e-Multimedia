@@ -393,5 +393,45 @@ a. Sulla teoria del tristimolo.
 b. Sulla sintesi additiva.
 c. Sul modello del pittore.
 d. Nessuna delle precedenti.
+Quale tra le seguenti affermazioni sul filtro passa alto Gaussiano nel dominio delle frequenza è l’unica VERA?
+a. Il suo scopo è di ridurre il contributo delle alte frequenze.
+b. L’effetto della sua applicazione è simile a quello di un edge detector.
+c. La pendenza del filtro può essere regolata con un numero chiamato ordine.
+d. Nella sua maschera compaiono sempre e al massimo quattro valori distinti.
+Quale delle seguenti affermazioni sul modello L*a*b* è l’unica FALSA.
+a. Luminanza e crominanza stanno su canali separati.
+b. È percettivamente uniforme.
+c. Presenta una geometria sferica.
+d. Si può ottenere da RGB mediante una trasformazione lineare.
+Quale tra le seguenti operazioni richiede un passo di interpolazione?
+a. Scaling di fattore 3 lungo x e y.
+b. Negativo.
+c. Rotazione di 180*.
+d. Nessuna delle precedenti.
+Sia l un’immagine a scala di grigi con almeno 2 colori distinti. Quale dei seguenti operatori se applicati a l, produce un'immagine che contiene sicuramente, tra gli altri, i colori bianco(255) e nero(0)?
+a. Stretching lineare del contrasto.
+b. Forward Mapping.
+c. Equalizzazione.
+d. Inverse Mapping.
+La potenza spettrale di un coefficiente ottenuto tramite DFT vale 18, Da quale tra le seguenti coppie (parte reale, parte immaginaria) potrebbe derivare tale potenza?
+a. (3, 3).
+b. (9, 9).
+c. (3, 6).
+d. Nessuna delle precedenti.
+Sia m il fattore di magnificazione di una lente sottile e sia v la distanza tra la lente e il piano di formazione dell’immagine dopo aver messo a fuoco un oggetto posto di fronte ad essa. Cosa rappresenta il rapporto tra v e m?
+a. Numero di Diottrie della Lenta.
+b. La Focale della Lente.
+c. La distanza tra la lente e l’oggetto posto davanti ad essa.
+d. La dimensione dell’oggetto osservato attraverso la lente.
+Quale dei seguenti costrutti descrive in maniera inequivocabile un operatore locale lineare e shift-invariant?
+a. Kernel.
+b. LUT. 
+c. Matrice affine.
+d. Nessuna delle precedenti.
+Su cosa si basa lo spazio di colore CMY?
+a. Modello del pittore.
+b. Sintesi Sottrattiva.
+c. Teoria del Tristimolo.
+d. Nessuna delle precedenti.
 
 
